@@ -10,6 +10,7 @@ use pocketmine\world\World;
 final class PositionUtils{
 
     public const CONVERT_TO_INT = 0;
+
     public const CONVERT_TO_FLOAT = 1;
 
     public static function posToStr(Position $pos, int $convert = self::CONVERT_TO_INT, bool $pushWorld = true): string{
